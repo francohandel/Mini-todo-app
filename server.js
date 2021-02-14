@@ -1,7 +1,7 @@
 const { urlencoded } = require("body-parser")
 let express = require("express")
 let mongodb = require("mongodb")
-let connectionString = 'mongodb+srv://francohandel:handel4464@projects-cluster.ypnau.mongodb.net/test-projects?retryWrites=true&w=majority'
+let connectionString = 'mongodb+srv://username:password@projects-cluster.ypnau.mongodb.net/test-projects?retryWrites=true&w=majority'
 let db
 let port = process.env.PORT  // setting port to deployment site
 if (port == null || port == "") {
